@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 630px;
+  padding: 0 0 5px 5px;
+  background-color: gray;
+  border: 5px solid rgba(0, 0, 0, 0.7);
+}
+
+table {
+  width: 200px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+}
