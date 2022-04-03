@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calc {
+  width: 400px;
+  background-color: #eeeeee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 33.3%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+tr {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+td {
+  padding-top: 5px;
+  padding-right: 5px;
+  width: 25%;
+}
+
+table {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.screen {
+  font-size: 40px;
+  text-align: right;
+  padding: 20px 15px;
+  color: black;
+}
+
+.calc__button {
+  width: 100%;
+  height: 100px;
+  background-color: #6fb2d2;
+  color: black;
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  font-size: 80px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.4) 0px -2px 6px 0px inset;
+  transition: all 0.3s;
+}
+
+td:last-child > button,
+tr:first-child td > button {
+  background-color: #ebd671;
+  color: black;
+  transition: all 0.3s;
+}
+
+.calc__button:hover {
+  background-color: #85c88a;
+  color: white;
+}
+
+td:last-child > button:hover,
+tr:first-child td > button:hover {
+  background-color: #d82148;
+  color: white;
+}
