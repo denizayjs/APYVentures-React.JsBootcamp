@@ -1,5 +1,21 @@
+const container = document.querySelector(".container");
+let row;
+for (let k = 0; k < 3; k++) {
+  row = document.createElement("div");
+  row.className = "row";
+  let imgCard;
+  for (j = 0; j < 3; j++) {
+    imgCard = document.createElement("div");
+    imgCard.className = "image-card";
+    let img = document.createElement("img");
+    img.src = "";
+    imgCard.appendChild(img);
+    row.appendChild(imgCard);
+  }
+  container.appendChild(row);
+}
+
 const img = document.querySelectorAll("img");
-console.log(img);
 
 for (let i = 0; i < img.length; i++) {
   img[

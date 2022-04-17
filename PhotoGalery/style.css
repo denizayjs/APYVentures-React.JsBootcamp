@@ -15,7 +15,7 @@ h1 {
   padding-bottom: 10px;
   border-bottom: 2px dashed rgba(0, 0, 0, 0.3);
   transition: all 0.2s;
-  animation: moveInBottom 0.5s ease-out;
+  animation: moveInTop 2.5s ease-out;
 }
 
 .container {
@@ -83,10 +83,14 @@ img {
   }
 }
 
-@keyframes moveInBottom {
+@keyframes moveInTop {
   0% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(-50px);
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(20px);
   }
   100% {
     opacity: 1;
