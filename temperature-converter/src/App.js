@@ -11,8 +11,8 @@ class App extends Component {
   }
   tempIncrease = () => {
     let newTemp = this.state.currentTemp + 1;
-    let fahrenheit = (this.state.currentTemp * (9 / 5) + 32).toFixed(2);
-    let kelvin = this.state.currentTemp + 273.15;
+    let fahrenheit = (newTemp * (9 / 5) + 32).toFixed(2);
+    let kelvin = newTemp + 273.15;
     this.setState({
       currentTemp: newTemp,
       fahrenheit: fahrenheit,
