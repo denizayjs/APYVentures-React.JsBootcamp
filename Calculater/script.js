@@ -82,3 +82,5 @@ function flushOperation(intBuffer) {
 function rerender() {
   screen.innerText = buffer;
 }
+
+
