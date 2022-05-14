@@ -23,7 +23,7 @@ Blog with  Bootstrap, html
 
 ---Week 4---<br/>
 
-Photo Gallery with  Bootstrap, html
+Photo Gallery with  js, html, css
 
 ![image](https://user-images.githubusercontent.com/29174043/168442074-7581098e-1aa4-4447-b8a8-efcdf92d1b68.png)
 
